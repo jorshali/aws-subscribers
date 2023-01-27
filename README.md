@@ -70,17 +70,11 @@ The AWS ClientId that should be used in your authentication configuration
 
 Hang onto these values as you will need them for the data setup and your calling application.
 
-## Setting up Data
+## Setting up Data (optional)
 
-There are several included scripts for setting up the environment with default data for initial testing.  These commands will ask for some information provided by the project build.
+The data setup is optional.  Included in this project is a simple Cognito authentication setup.  This is intended for adding additional services for using the subscribers to send email blasts, newsletters, etc.
 
-Simply run the following command:
-
-```
-$ sh scripts/setup.sh
-```
-
-Once the data has been setup, you likely want to add a user.  This can be done with the following command:
+You can add a user with the following command:
 
 ```
 $ sh scripts/add-user.sh
