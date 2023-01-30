@@ -223,7 +223,7 @@ Resources:
 Outputs:
   WebEndpoint:
     Description: "Service endpoint URL for your App configuration"
-    Value: !Sub "https://${ApiGatewayApi}.execute-api.${AWS::Region}.amazonaws.com/V1"
+    Value: !Sub "https://${ApiGatewayApi}.execute-api.${AWS::Region}.amazonaws.com/V1/subscriber"
   UserPoolId:
     Description: "The ID of the UserPool for use when running the environment setup script"
     Value: !Ref AppUserPool

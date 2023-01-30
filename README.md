@@ -1,6 +1,8 @@
 # aws-subscribers
 
-A TypeScript-based project for creating a Subscriber REST API with [AWS SAM](https://aws.amazon.com/serverless/sam/).  For a complete tutorial using this project, check out: [Build a Subscriber REST API on AWS in under 30 minutes]().
+A TypeScript-based project for creating a Subscriber REST API with [AWS SAM](https://aws.amazon.com/serverless/sam/).  For a complete tutorial using this project, check out: [Start tracking subscribers in AWS in under 30 minutes](https://jacoborshalick.me/posts/build-a-subscriber-rest-api-on-aws-in-under-30-minutes).
+
+If you would like to setup your own portfolio site that integrates with this project, check out:  [Host a personal blog with Next.js and AWS in under 30 minutes](https://jacoborshalick.me/posts/nextjs-and-aws-amplify-host-a-personal-blog-in-under-30-minutes).
 
 ## Introduction
 
@@ -32,7 +34,7 @@ The starter project will now be available in the project directory you created.
 The following prerequesites are needed:
 
 * An AWS Account.  If you don't have one, you can [create one here](https://aws.amazon.com).
-* A deployment profile.  If you haven't created one, [follow these instructions](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html).
+* A deployment profile.  If you haven't created one, [follow these instructions](https://jacoborshalick.me/posts/build-a-subscriber-rest-api-on-aws-in-under-30-minutes).
 * A development environment (optional, but recommended).  [Follow this guide](https://focus.dev/serverless-patterns-creating-deployment-environments-in-aws-with-organizations/) to setup deployment environments.
 
 Once you have completed the prerequesites, follow these steps to deploy to an AWS environment:
